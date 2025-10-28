@@ -1,0 +1,88 @@
+/* بدنه و هدر */
+body {
+    margin: 0;
+    font-family: "Vazirmatn", sans-serif;
+    background-color: #f8f8f8;
+    direction: rtl;
+  }
+  
+  header h1 {
+    text-align: center;
+    background: linear-gradient(to right, rgb(197, 34, 34), #472121);
+    color: #fff;
+    padding: 15px 0;
+    margin: 0 0 30px 0;
+    border-radius: 0 0 15px 15px;
+  }
+  
+  /* بخش لاگین */
+  .login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+  }
+  
+  .login-box {
+    background: linear-gradient(to bottom right, #fffaf0, #ffe9b3);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    width: 350px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .login-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+  }
+  
+  .login-box h2 {
+    margin-bottom: 20px;
+    color: #472121;
+  }
+  
+  .login-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .login-box input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .login-box button {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(197, 34, 34);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .login-box button:hover {
+    background: #472121;
+  }
+  
+  .login-box p {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .login-box a {
+    color: rgb(197, 34, 34);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-box a:hover {
+    color: #472121;
+  }
+  
