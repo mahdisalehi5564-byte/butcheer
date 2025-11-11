@@ -1,4 +1,4 @@
-/* بدنه و هدر */
+
 body {
     margin: 0;
     font-family: "Vazirmatn", sans-serif;
@@ -14,8 +14,22 @@ body {
     margin: 0 0 30px 0;
     border-radius: 0 0 15px 15px;
   }
+
+  #n1 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  background-color: #a72828;
+  padding: 8px 20px;
+  margin: 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+#n1 a:hover {
+  background-color: #7a1c1c;
+}
   
-  /* بخش لاگین */
   .login-page {
     display: flex;
     justify-content: center;
