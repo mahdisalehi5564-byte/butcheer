@@ -1,0 +1,76 @@
+
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: "IRANSans", sans-serif;
+    background: #faf6f5;
+    direction: rtl;
+    color: #3a3a3a;
+  }
+  
+  .about-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  
+  .about-box {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    border: 1px solid #f0d7d7;
+    box-shadow: 0 0 20px rgba(150, 0, 0, 0.07);
+    margin-bottom: 35px;
+    transition: 0.3s;
+  }
+  
+  .about-box:hover {
+    box-shadow: 0 0 25px rgba(150, 0, 0, 0.18);
+  }
+  
+  .about-box h2 {
+    margin-bottom: 18px;
+    font-size: 28px;
+    color: #b30021; /* رنگ قرمز اصیل گوشت */
+    border-right: 5px solid #ffb3b3;
+    padding-right: 10px;
+  }
+  
+  .about-box p {
+    line-height: 2;
+    font-size: 17px;
+  }
+  
+  /* بخش ویژگی‌ها */
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+  }
+  
+  .feature-item {
+    background: #fff;
+    padding: 25px 20px;
+    border-radius: 16px;
+    border: 1px solid #f2caca;
+    box-shadow: 0 0 15px rgba(150, 0, 0, 0.06);
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .feature-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(150, 0, 0, 0.15);
+  }
+  
+  .feature-item h3 {
+    color: #c4001d;
+    margin-bottom: 12px;
+    font-size: 22px;
+  }
+  
+  .feature-item p {
+    font-size: 15.5px;
+    line-height: 1.8;
+  }
